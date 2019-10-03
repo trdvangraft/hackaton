@@ -1,0 +1,328 @@
+{
+	"CS-E5500":
+        {
+          "id": "CS-E5500",
+			"name": "Acoustical Measurements",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1125689014&haettuOpas=-1",
+			"credits": 5,
+			"outcome": "The student understands basic acoustical measurements and can perform measurements with standard techniques. The student is also familiar with more advanced techniques and is well aware of limitations and problems in measurements. Moreover, the student can interpret the results and understands the uncertainties of different measurement techniques.",
+			"content": "Acoustical measurement techniques in theory and in practice. The main emphasis is in measurements related to room and building acoustics, but also environmental noise measurements are covered. The use of standard measuring equipment is introduced also in theory and in practice. The course include special assignments and some measurement demonstrations during the lectures.",
+			"prerequisites": [
+				"none"
+			]
+		},
+    "CS-E5520":
+        {
+            "id": "CS-E5520",
+			"name": "Advanced Computer Graphics",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1125689086&haettuOpas=-1",
+			"credits": 5,
+			"outcome": "Contents vary by year. A solid understanding of a particular subfield of computer graphics and its state of the art, and ability to put the understanding to practice through programming",
+			"content": "Contents may vary by year, but always form a deeper dive into the theory, algorithms, and their practical implementation of a particular subfield of computer graphics. In the past few years, the topic has been was physically based rendering, both its theory and numerical methods for generating realistic pictures. ",
+			"prerequisites": [
+				"CS-C3100"
+			]
+		},
+  "CS-C3100":
+  {
+            "id": "CS-C3100",
+			"name": "Computer Graphics",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1125592183&haettuOpas=-1",
+			"credits": 5,
+			"outcome": "Basic understanding of modern computer graphics as a whole (modeling, animation, rendering) and ability to implement a number of practical algorithms in C++. Understanding of how the graphics processor (GPU) works. Hands-on connection to significant applications through guest lectures. Concrete uses for mathematics learned in earlier classes.",
+			"content": "Content: Geometric modelling, visual simulation, shading and lighting, ray tracing, the real-time graphics pipeline, mathematical foundations of computer graphics.",
+			"prerequisites": [
+				"CS-A1140"
+			]
+		},
+  "CS-A1140":
+		{
+            "id": "CS-A1140",
+			"name": "Data Structures and Algorithms",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1125590013&haettuOpas=-1",
+			"credits": 5,
+			"outcome": "Having completed the course, you can define, compare and implement many fundamental data structures and algorithms. For instance, you understand how the most commonly used sorting algorithms such as insertion sort, mergesort and quicksort work and are familiar with the divide and conquer algorithm design approach. You know some data structures and algorithms based on trees. You understand how different set and map/dictionary data structures can be implemented either with trees or with hashing, and can compare their properties. You know the idea of dynamic programming and can apply it to some problems. You understand how elementary graph algorithms such as depth first search, breadth first search, and shortest path search algorithms work. You are aware that there are computational problems for which no efficient algorithms are known and can name some. You have implemented many of the above mentioned data structures and algorithms or their variants yourself. You master the basic terminology used in the domain and are able to independently study algorithms not covered in the course. You know basics of algorithm analysis and can, for instance, deduce the worst-case running time of a given algorithm in some simple cases.",
+			"content": "Linear data structures, trees, graphs and other data structures. Sorting and searching methods, dynamic programming, graph and other algorithms. Principles of algorithm analysis.",
+			"prerequisites": [
+				"CS-A1120"
+			]
+		},
+  "CS-A1120":
+		{
+            "id": "CS-A1120",
+			"name": "Programming 2",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1125585487&haettuOpas=-1",
+			"credits": 5,
+			"outcome": "Upon successfully completing the course a student understands the essential functional structure of a programmable computer and its operation during program execution, understands the physical limitations and possibilities of computers, including the main computational resources (time, space, parallelism, etc) and how to put these into use, can determine/measure the performance of a computer program in practice, in simple cases by inspecting only the structure of the program, understands what is meant by an abstract interface and its implementation, including the possibility of alternative implementations with different performance characteristics, understands the concept of recursion and can write programs that employ recursion and operate on recursive data structures, and knows the basics of algorithm design and analysis, including selected designs for fundamental combinatorial tasks (searching, sorting, etc).",
+			"content": "Introduction to computer architecture and program execution from gate level to high-level programming languages. Programming abstractions and analysis of program performance. Aspects of functional programming, e.g. recursive definitions and recursion. Introduction to computer science and problem-solving with algorithms.",
+			"prerequisites": [
+				"CS-A1110"
+			]
+		},
+  "CS-A1110":
+		{
+            "id": "CS-A1110",
+			"name": "Programming 1",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1125585231&haettuOpas=-1",
+			"credits": 5,
+			"outcome": "After you have taken the course, you’ll find computer programming to be useful and fun, and will be motivated to learn more. You’ll know the key concepts of programming and the object-oriented programming paradigm, and will be capable of discussing them with others. You’ll be able to apply these concepts as you read and write computer programs, at least when the programming task has been carefully delimited in advance. You’ll have an idea of how a computer works as it runs a program. You’ll be familiar with the main stages of developing program code, and can make use of appropriate programming tools during these stages. You’ll be able to read programs and program documentation written by others, and to use available subprograms as parts of your own programs. You’ll have realized that programs are not written only for computers but in order to help people, and also to be read by people. You’ll be able to write code that follows a good, readable style.",
+			"content": "Key content: Programming, imperative programming, object-oriented programming; reading program code; writing and modifying program code to conform to a given specification; statements and expressions; variables, data types, functions, parameters, return values, objects, classes, methods, arrays and buffers, selection, loops; programming style; class libraries and program documentation; using an integrated development environment. Highly recommended content: Stages of program code (source code, compiler, intermediate language, virtual machine); program execution (e.g., call stack, garbage collection); reading and writing text files; key-value maps; traits and inheritance; immutable vs. mutable objects; function objects, higher-order functions, anonymous functions; some basic aspects of code quality. Additional content: graphical user interfaces; recursion; designing one’s own program.",
+			"prerequisites": [
+				"none"
+			]
+		},
+  "CS-E4500":
+		{
+            "id": "CS-E4500",
+			"name": "Advanced Course in Algorithms",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1125614957&haettuOpas=-1",
+			"credits": 5,
+			"outcome": "This course will deepen your knowledge and skills in algorithm design. You will become familiar with a number of advanced design principles and tradeoffs between quantities such as running time, space usage, parallel speedup, success probability, and quality of approximation.",
+			"content": "Advanced algorithm design techniques such as randomization, approximation, parameterisation, and algebrisation. Examples of contemporary advanced algorithms and supporting data structures. Tradeoffs between objectives and computational resources. The course consists of a fixed core part and a varying part covering topics of current interest.",
+			"prerequisites": [
+				"CS-A1110"
+			]
+		},
+  "CS-E4800":
+		{
+            "id": "CS-E4800",
+			"name": "Artificial Intelligence",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1125620153&haettuOpas=-1",
+			"credits": 5,
+			"outcome": "Artificial intelligence (AI) tackles complex  real-world problems, such as question answering, speech recognition,  social network analysis, and task scheduling, with rigorous mathematical methods and tools. The goal of this course is to give an  in-depth introduction to AI methodology while approaching the topic  from the perspective of concrete application problems. Having  completed the course, you have gained a comprehensive overview of  AI and understand its fundamental principles related to machine  learning and logical reasoning. You have excellent premises for  solving real-world problems with modern AI techniques and building  intelligent systems by implementing such techniques.",
+			"content": "The course presents a range of central AI techniques and  provides the students with an extensive toolbox for solving problems  in practice. For applications that require high degree of adaptation,  specific techniques such as (deep) machine learning, reinforcement  learning, and graphical models are included. These methods are  instrumental for decision under uncertainty. For the purposes of  knowledge representation and reasoning, different logical  representations such as formulas and rules are covered. These representations establish the foundations for  declarative problem solving and enable the use of state-of-the-art solver technology to search for solutions. The course also encourages  the students to combine the logical and machine learning perspectives  when solving future problems.",
+			"prerequisites": [
+				"CS-A1110",
+				"CS-A1140",
+				"MS-A050"
+			]
+		},
+  "MS-A0501":
+		{
+            "id": "MS-A0501",
+			"name": "First course in probability and statistics",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1112926199&haettuOpas=-1",
+			"credits": 5,
+			"outcome": "After course the student can compute probabilities of composite events by applying operations of set theory - is familiar with the most important discrete and continuous probability distributions and recognizes situations that can modeled with them - can apply joint distributions to compute statistics of random vectors and to recognize when two random variables are stochastically independent - knows methods for estimating the parameters of a statistical model - can compute the posterior distribution of a simple statistical model from a given prior distribution and observed data - can explain what can and what cannot be concluded from a p-value of chosen statistical test",
+			"content": "The notion of probability and its basic arithmetic rules - the most important discrete and continuous distributions - expectation, sample mean, and the law of large numbers - variance, sample variances, and normal approximation - stochastic dependence and correlation - description of data using statistics and histograms - parameter estimation of statistical models - the concept of a confidence interval - prior distribution, likelihood function, and posterior distribution - testing of simple statistical hypotheseser",
+			"prerequisites": [
+				"MS-A0008"
+			]
+		},
+  "MS-A0008":
+  {
+            "id": "MS-A0008",
+			"name": "Matrix algebra",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1112900120&haettuOpas=-1",
+			"credits": 5,
+			"outcome": "After the course the student - can write systems of linear equations in matrix form - can solve systems of linear equations in matrix form using Gaussian elimination - can perform basic matrix operations - can compute the eigenvalues of a square matrix - understands the significance of matrix decompositions",
+			"content": "Vector computations, matrices and systems of linear equations, eigenvalues.",
+			"prerequisites": [
+				"none"
+			]
+		},
+  "CS-A1111":
+		{
+            "id": "CS-A1111",
+			"name": "Basic Course in Programming Y1",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1125585307&haettuOpas=-1",
+			"credits": 5,
+			"outcome": "After taking this course, you can write small computer programs, for example, to perform calculations needed in engineering applications or to manipulate small amounts of data. You also understand corresponding programs written by others.",
+			"content": "Basics of procedural programming in Python, structured programming, basics of program design. Basic data structures. Good programming style.",
+			"prerequisites": [
+				"none"
+			]
+		},
+  "UWAS-C0050":
+		{
+            "id": "UWAS-C0050",
+			"name": "3D Prototyping in Context of Creative Practice",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1137876468&haettuOpas=-1",
+			"credits": 3,
+			"outcome": "Understanding of digital fabrication methods and their potential in Art and design practice. (un-derstanding technology) - Hand on experience with digital fabrication machines (learning by doing) - Understanding of new material and exploring the potential (experimentation) - The business potential of adopting new digital technologies in creative practice",
+			"content": "The content of the course will involve looking at an Art & design practice and how adopting digital fabrication technologies and working with materials in new ways can create new business opportunities and potentials. We will case study the practices of Artist such as Tomas Saraceno, Olafur Elisson and Anish Kapoor and how their adoption of new materials and tech-nologies have helped them realise their visions. In certain instances, this created completely new methods of production and creation of new materials as a well unique way of using of material has led to new discoveries.As a creative practice grows in size, adoption of technology in the production is imminent, the question is “can the technology become an active driver for the practice or remains as just another tool”.The course is based on my experience of working as a technology and material consultant to the artistic practice of Tomas Saraceno.",
+			"prerequisites": [
+				"none"
+			]
+		},
+  "ARTS-A0113":
+  {
+            "id": "ARTS-A0113",
+			"name": "Academic Learning Skills",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1137534347&haettuOpas=-1",
+			"credits": 2,
+			"outcome": "After completing the course, the students can: - Observe, evaluate and develop their own learning and ability to study - Navigate in Aalto Learning Services - Plan and schedule their studies - Set feasible goals for studying - Design and develop a personal study plan (HOPS) - Operate in Finnish academic learning culture",
+			"content": "Content topics covered during the course: - Learning ability and various challenges in learning and studying - Effective learning and academic study skills - Identifying your own strengths and challenges in learning and reflecting on them - Designing your own studies and developing a Personal Study Plan",
+			"prerequisites": [
+				"none"
+			]
+		},
+  "ARTS-A0501":
+		{
+            "id": "ARTS-A0501",
+			"name": "Advanced Course in Lithography",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1117219160&haettuOpas=-1",
+			"credits": 3,
+			"outcome": "Deepening knowledge and skills in lithographic printing. Versatile experimentation with different work methods and techniques and improving the mastery of materials and tools.",
+			"content": "Deepening understanding of the significance of art graphics as part of broader art historical development and exploring its position in the field of contemporary art. The students learn about the definition, concepts and opportunities of different printing methods in artistic expression. The course aims to find links between lithography and student’s main subject.",
+			"prerequisites": [
+				"ARTS-A0500"
+			]
+		},
+  "ARTS-A0500":
+		{
+            "id": "ARTS-A0500",
+			"name": "Introduction to Lithography",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1117219112&haettuOpas=-1",
+			"credits": 3,
+			"outcome": "The student learns different lithography techniques, the preparation of a lithographic stone, drawing and printing. Printing material used: limestone.",
+			"content": "The course prepares the student for independent work in lithography and opens up opportunities for expanding personal artistic expression.",
+			"prerequisites": [
+				"none"
+			]
+		},
+  "ARTS-A0503":
+		{
+            "id": "ARTS-A0503",
+			"name": "Advanced Course in Screen Printing",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1117219189&haettuOpas=-1",
+			"credits": 3,
+			"outcome": "Knowledge and skills provided by the basic course are expanded upon. The students learn about more demanding screen exposure techniques such as the preparation of capillary film, and efforts are made to find links between screenprinting and the student's main subject.",
+			"content": "Deepening understanding of the significance of art graphics as part of broader art historical development and exploring its position in the field of contemporary art. The students learn about the definition, concepts and opportunities of different printing methods in artistic expression. The course aims to find links between screenprinting and student's main subject.",
+			"prerequisites": [
+				"none"
+			]
+		},
+   "ARTS-E0400":
+		{
+            "id": "ARTS-E0400",
+			"name": "Advanced Metal Casting",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1129461409&haettuOpas=-1",
+			"credits": 3,
+			"outcome": "The student will be familiar with all aspects of metal (bronze) casting, and how to finish and prepare the surface after casting.",
+			"content": "The course familiarises the student with cleaning and finishing the bronze cast, as well as using patinas to colour the surface.",
+			"prerequisites": [
+				"ARTS-A0413"
+			]
+		},
+  "ARTS-A0413":
+		{
+            "id": "ARTS-A0413",
+			"name": "Metal Casting 101",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1132786977&haettuOpas=-1",
+			"credits": 3,
+			"outcome": "The student will be familar with the techniques and processes involved for making a metal (bronze) cast.",
+			"content": "The introductory lectures gives students a good background to both industrial and art (traditional) metal casting foundry techniques. Students each create a small sculpture or object from wax for casting. Students are shown how to create molds for casting. Students are involved with preparing the foundry for casting. The metal is melted and oured, after which the casts are opened and the final bronze pieces are cleaned.",
+			"prerequisites": [
+				"none"
+			]
+		},
+  "22C28000":
+  {
+            "id": "22C28000",
+			"name": "Accounting and Information Systems",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1125520039&haettuOpas=-1",
+			"credits": 6,
+			"outcome": "After completing the course students understand how Accounting Information Systems (AIS) obtain transaction data and support and enable a company’s business functions, operations. Students will have reached a basic understanding of AIS and their core modules. They have learned how those systems are acquired, developed, maintained and operated. Furthermore, students acknowledge the importance of business process development and understand the idea of AIS integration at business process levels. Finally, students have increased their skills in team work and applying analytical thinking for problem solving.",
+			"content": "The course covers the foundations to understanding Accounting Information Systems (AIS), managerial issues such as business process reengineering, deciding on built or buy of AIS, planning and implementing of AIS, managing AIS projects, as well as an overview of the most important AIS modules. The course covers impacts of AIS on strategic management accounting, on organizational performance and on the accounting profession. The course includes a unique collaboration with Accountor, who host the exercise sessions, providing a virtual learning environment in their Procountor AIS and an assignment, which familiarizes students with AIS input and output processes. Top performers will get the chance to obtain the official Procountor certificate free of charge.",
+			"prerequisites": [
+				"none"
+			]
+		},
+  "22E29100":
+		{
+            "id": "22E29100",
+			"name": "Accounting for Sustainability",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1125539355&haettuOpas=-1",
+			"credits": 6,
+			"outcome": "The main objective of this course is to foster students understanding about the possibilities and challenges of accounting for measure outcomes, report and assure corporate sustainability practices. The lectures will explore various theories within corporate social responsibility (CSR) and accountability. Through various teaching materials and learning activities students will be encouraged to critically evaluate the links between strategy, management control and accountability process in sustainable development. After completing the course, students will be able to apply relevant theories and management accounting tolls to real life business cases and design sustainability plans and strategies for business in terms of external reporting (e.g. Sustainability Report), strategic management accounting and performance evaluation. Student will be capable to critically analyze environmental, social and economic responsibility of an organization and understands measurement problems related to these three dimensions. After following this course students will better understand relevant concepts and sustainability reporting frameworks, such as GRI and the “Integrated Reporting.” Student will also be able to explain differences between sustainability assurance and traditional auditing, as well as critically evaluate responsible investments and ESG ratings. Implicit to its leaning objectives, this course also aims to improve students skills related to communicate ideas clearly, concisely, logically and effectively both verbally and in writing.",
+			"content": "The course covers both the theories and the practice of corporate social responsibility (CSR) in the modern organization, with a focus on external reporting (e.g. Sustainability Report) as well as on the necessary link between sustainability strategy and management control systems (or management accounting). Through various teaching materials and learning activities, you will be encouraged to apply the theoretical frameworks to business practice. This course, therefore, aims to offer you a holistic and comprehensive approach to study accounting for sustainability. Intensive participation on lectures is necessary in order to succeed the course.",
+			"prerequisites": [
+				"none"
+			]
+		},
+  "22E21000":
+		{
+            "id": "22E21000",
+			"name": "Auditing - Theory and Practice",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1013559314&haettuOpas=-1",
+			"credits": 6,
+			"outcome": "The objective of the course is to present and discuss fundamental questions and major themes in auditing research and practice through academic research studies and real case-exercises.",
+			"content": "The themes include preconditions for an audit and the audit environment, objectives of and demand for auditing, audit reporting, fundamental concepts, such as risk, auditing and corporate governance. The issues are discussed from regulatory and economic theory perspectives.",
+			"prerequisites": [
+				"none"
+			]
+		},
+  "22E12000":
+		{
+			"id": "22E12000",
+			"name": "Capital Budgeting",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1013559353&haettuOpas=-1",
+			"credits": 6,
+			"outcome": "The main objective of this course is to provide students with the capability to participate in capital investment decision making processes. After this course students will understand the opportunities and limitations of various capital investment methods and how they could be used in modern organizations.",
+			"content": "The major topics of capital budgeting cover the general features of capital budgeting, cost of capital, costs and benefits of investments, flexibilities and uncertainties in capital budgeting, strategic investments, capital budgeting in modern production environment and in an international context, special features of R&D/IT-investments, and post-completion auditing.",
+			"prerequisites": [
+				"none"
+			]
+		},
+  "22E00500":
+		{
+			"id": "22E00500",
+			"name": "Corporate Governance",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1015750822&haettuOpas=-1",
+			"credits": 6,
+			"outcome": "After the course the student will be able to - use the concepts of corporate governance in every day thinking - understand the role of good governance in the corporate success - understand the relationship between the company management, board of directors and shareholders and the reasons for the variety in corporate governance practices both within one country and between countries as well as the recent trend of convergence in corporate governance practices - understand the importance of various institutions of corporate governance and the logic how they work and evaluate the quality of corporate governance practices",
+			"content": "The course underlines the major problems of corporate governance with agency and principle problems and stewardship approaches and how institutions of corporate governance are solutions for these problems. The course aligns the theoretical thinking with empirical and practical solutions within the field of corporate governance. The course offers the diversity of solutions and helps to understand the country and company specific practices of corporate governance. The major topics cover the big picture of corporate governance and the main institutions of corporate governance including board of directors, investor relations, auditing and internal control, executive compensation, shareholder activism and external corporate governance. After the course you will understand the importance of these institutions and the logic how they work.",
+			"prerequisites": [
+				"none"
+			]
+		},
+  "ELEC-C7420":
+		{
+			"id": "ELEC-C7420",
+			"name": "Basic principles in networking",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1132699669&haettuOpas=-1",
+			"credits": 5,
+			"outcome": "Students will be able to describe basic networking principles, understand the functionality of commonly used network protocols (e.g. TCP/IP, HTTP), and be aware of the challenges to be solved by future networking technology.",
+			"content": "This course provides a theoretical and practical basis for computer networking. Besides basic networking principles, the course provides case studies of network protocols at each layer of the OSI model. Examples include HTTP and TCP/IP for data center networking, 5G and 802.11.x for vehicular networking, Bluetooth and Bluetooth Low Energy for short-distance device-to-device communication, and symmetric and asymmetric encryption protocols and VPN for secure communications.",
+			"prerequisites": [
+				"none"
+			]
+		},
+  "ELEC-E7210":
+		{
+			"id": "ELEC-E7210",
+			"name": "Communication Theory",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1121567371&haettuOpas=-1",
+			"credits": 5,
+			"outcome": "To understand advanced physical and link layer algorithms used in modern communication systems, with stress on the operation of a single link.",
+			"content": "Interference in digital receivers. equalization techniques, OFDM & Single-Carrier FDMA, multiantenna transmission techniques, precoding techniques, multiuser MIMO.",
+			"prerequisites": [
+				"ELEC-C7230"
+			]
+		},
+  "ELEC-C7230":
+		{
+			"id": "ELEC-C7230",
+			"name": "Transmission Methods in Communication Systems",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1113160675&haettuOpas=-1",
+			"credits": 5,
+			"outcome": "After completing this course, the student will understand the basic functionalities of the physical layer of a digital communication system operating over a noisy and band-limited channel; understand the fundamental limitations posed on the rate and quality of signal transmission by the channel bandwidth and the signal power; understand the principles of designing the optimal receiver for a given digital communication system and analyzing the system performance in the case of an AWGN channel; know the most commonly used line coding and digital carrier modulation schemes; understand the basic principles of CDMA, OFDM and error control coding.",
+			"content": "Mathematics of waveforms. Carrier modulation. Baseband modulation, line codes, pulse shapes, digital modulation constellations. Signal space representation and optimal receiver design for AWGN channels. Performance analysis of digital communication systems in AWGN channels. Basic principles of CDMA and OFDM. Introduction to error control coding.",
+			"prerequisites": [
+				"none"
+			]
+		},
+   "ELEC-D7010":
+		{
+			"id": "ELEC-D7010",
+			"name": "Engineering for Humans",
+			"link": "https://oodi.aalto.fi/a/opintjakstied.jsp?OpinKohd=1129365233&haettuOpas=-1",
+			"credits": 5,
+			"outcome": "This course is designed to provide undergraduate students in all areas of engineering with a solid understanding of human factors relevant in the design and engineering of complex systems for human use. Students learn how to design systems that increase productivity and that are safe to operate and robust to human error. They learn basics of empirical research in this space, including evaluation of systems and accident analysis. Application areas discussed in the course include automation, transportation, energy, manufacturing, networks, electronics, health, and information technology.",
+			"content": "Course contents cover theories and models of biomechanics, human performance, manual control, human error, and workload.",
+			"prerequisites": [
+				"none"
+			]
+		}
+}

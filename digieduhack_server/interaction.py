@@ -1,6 +1,12 @@
 import sys
 
-userInput = sys.argv[1]
+def getPrerequisitesName(course):
+    for pre in course["prerequisites"]:
+        print(pre["name"])
+
+
+
+botQuestionKey, userInput = sys.argv[1], sys.argv[2]
 
 result = {
     "output": userInput
