@@ -1,16 +1,6 @@
 import json
+from utils import *
 
-
-def getPrerequisitesName(courses, key):
-    prerequisitesNames = []
-    prerequisites = courses[key]["prerequisites"]
-    for prerequisiteID in prerequisites:
-        if prerequisiteID != "none":
-            try:
-                prerequisitesNames.append(courses[prerequisiteID]["name"])
-            except:
-                print("does not exists")
-    return prerequisitesNames
 
 
 if __name__ == '__main__':
@@ -24,9 +14,9 @@ if __name__ == '__main__':
     json_file = open('../digieduhack/database/courses2.json', encoding="utf8")
     courses = json.load(json_file)
     # print(json.dumps(courses["CS-A1110"], indent=4))
-    names = getPrerequisitesName(courses, "ARTS-A0501")
-    for i in names:
-        print(i)
+    prerequisitesNames = getPrerequisitesName(courses, "ARTS-A0501")
+    for n in prerequisitesNames:
+        print(n)
     json_file.close()
 
 #from rake_nltk import Rake
