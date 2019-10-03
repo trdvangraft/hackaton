@@ -7,7 +7,7 @@ def getPrerequisitesName(courses, key):
     for prerequisiteID in prerequisites:
         if prerequisiteID != "none":
             try:
-                prerequisitesNames.append(courses["prerequisiteID"]["name"])
+                prerequisitesNames.append(courses[prerequisiteID]["name"])
             except:
                 print("does not exists")
     return prerequisitesNames
