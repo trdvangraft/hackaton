@@ -1,0 +1,40 @@
+{
+    "courses": {
+        "reply": ["Sure we will show you the courses!", "Loading all the courses for you"],
+        "matchers": ["courses", "courses?", "classes"],
+        "numvariables": 0
+    },
+    "suggest": {
+        "reply": [
+            "Cool that you decided on picking {INPUT}! We will check your profile",
+            "{INPUT} is coming up!"
+        ],
+        "matchers": ["pick", "suggest"],
+        "numvariables": 1,
+        "regex": "(pick|suggest) \\w*"
+    },
+    "pick": {
+        "reply": [
+            "Comparing {INPUT} to {INPUT}, we recommend {OUPUT}",
+            "According to our system, you are best of picking {OUPUT}, if you decide between {INPUT} and {INPUT}"
+        ],
+        "matchers": ["or", "vs", "either"],
+        "regex": "\\w* (or|vs|either) \\w*",
+        "numvariables": 3
+    },
+    "subscribe": {
+        "reply": [
+            "Subscribing you to {INPUT}",
+            "You are now subscribe to {INPUT}"
+        ],
+        "matchers": ["subscribe", "subscribe me"],
+        "numvariables": 1,
+        "regex": "(subscribe|subscribe me) \\w*"
+    },
+    "personality": {
+        "reply": [
+            "We are going to ask you a few questions"
+        ],
+        "matchers": ["new", "personaliti"]
+    }
+}

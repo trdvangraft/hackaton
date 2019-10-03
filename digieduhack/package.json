@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@progress/kendo-react-buttons": "^3.4.1",
+    "@progress/kendo-react-conversational-ui": "^3.4.1",
+    "@progress/kendo-react-dateinputs": "^3.4.1",
+    "@progress/kendo-react-intl": "^3.4.1",
+    "pusher-js": "^5.0.2",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-scripts": "3.2.0"
@@ -27,5 +32,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
