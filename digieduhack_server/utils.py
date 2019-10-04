@@ -34,6 +34,26 @@ def computeScore(replies, dict, key):
         ret += replies[i]
     return ret
 
+def filterOutMissingPrerequisitesAndCredits(users, courses, credits):
+
+    print(users.keys())
+
+    candidatesCourses = []
+    userID = "754525"
+    u = users[userID]
+
+    coursesKeys = courses.keys()
+    for cKey in coursesKeys:
+        if courses[cKey]["credits"] == credits:
+            for prerequisite in courses[cKey]["prerequisites"]:
+                if prerequisite == "none" or prerequisite in u["curriculum"]:
+                    candidatesCourses.append(courses[cKey])
+    print(len(candidatesCourses))
+    return candidatesCourses
+
+
+
+
 # call with user = users["id"]
 def computeScores(user, psyReplies):
     u = user["interest"]
