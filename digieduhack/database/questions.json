@@ -1,0 +1,24 @@
+{
+    "questions": [    
+    {
+        "tag": ["Computer"],
+        "question": "Thinks that technology will help improving society"
+    },
+    {
+        "tag": ["Art", "Computer"],
+        "question": "Likes to be creative" 
+    },
+    {
+        "tag": ["Computer", "Mathematics", "Economics"],
+        "question": "Likes to solve numerical problems" 
+    },
+    {
+        "tag": ["Acoustics", "Physics"],
+        "question": "Enjoys to explore the world of music and his effects" 
+    },
+    {
+        "tag": ["Computer"],
+        "question": "Loves hackathons especially DigiEduHack ;)" 
+    }
+    ]
+}
