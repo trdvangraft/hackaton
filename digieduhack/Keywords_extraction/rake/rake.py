@@ -2,7 +2,7 @@ from rake_nltk import Rake
 import gensim
 import itertools
 import numpy as np
-
+import json
 
 def extract_keywords(text):
     """
@@ -22,7 +22,21 @@ def extract_keywords(text):
     good_keywords = list(itertools.chain(*good_keywords))
 
     return good_keywords
-    
+
+def getContents(filename):
+
+    json_file = open(filename, "r", encoding="utf-8")
+
+    courses = json.load(json_file)
+    dictionary = {}
+
+    for i in courses:
+        key = courses[i]['name']
+        dictionary[key]=courses[i]['content']
+        
+    json_file.close()
+
+    return dictionary
 
 def word2vec(keywords, model):
     """
@@ -34,31 +48,49 @@ def word2vec(keywords, model):
             v += model.wv[w]
     return v / len(keywords)
 
+def finding_label(model,encoding, labels):
+
+        max_sim = 0
+        matching_label1 = ''
+        matching_label2 = ''
+        consine_similarities = []
+
+        for label in labels:
+            consine_similarities.append( np.sum(encoding*word2vec(label, model))/(np.linalg.norm(encoding)*np.linalg.norm(word2vec(label, model))) )
+        
+        index = np.argmax(consine_similarities)
+        matching_label1 = labels[index]
+        consine_similarities[index] = 0
+        index = np.argmax(consine_similarities)
+        matching_label2 = labels[index]
+
+        return matching_label1, matching_label2
 
 
 if __name__== "__main__":
 
     # Load Google's pre-trained Word2Vec model.
-    model = gensim.models.KeyedVectors.load_word2vec_format('./model/GoogleNews-vectors-negative300.bin', binary=True)
+    # CHANGE PATH HERE
+    model = gensim.models.KeyedVectors.load_word2vec_format('C:\\Users\\simon\\Desktop\\GoogleNews-vectors-negative300.bin', binary=True)
+    
+    filename = "../../database/courses.json"
 
+    """
     labels = ['Art', 'Design', 'Architecture', 'Film', 'Television', 'Scenography', 'Media', 
                 'Management', 'Finance', 'Accounting', 'Marketing', 'Sales', 'Economics', 'Entrepreneurship',
                 'Chemical', 'Bioproducts', 'Biosystems',
                 'Communications', 'Electrical', 'Networking', 'Automation', 'Electronics', 'Signal', 'Acoustics',
                 'Engineering', 'Mechanical', 'Physics','Mathematics','Industrial', 'Neuroscience', 'Computer']
+    """
 
-    #text = "Advanced topics in cloud computing with emphasis on scalable distributed computing technologies employed in cloud computing. Key cloud technologies and their algorithmic background. Main topics are distributed file systems, distributed batch processing with the MapReduce and the Apache Spark computing frameworks, and distributed cloud based databases."
-    text = "Content topics covered during the course: - Learning ability and various challenges in learning and studying - Effective learning and academic study skills - Identifying your own strengths and challenges in learning and reflecting on them - Designing your own studies and developing a Personal Study Plan"
-    #text = "The goal of the course is to provide a practical deep-dive into effective communications. Students will learn to apply it in their own lives and careers through a series of exercises. The course emphasizes iterative cycles of research and practice, where personal storytelling skills are developed through feedback and discussion."
-    keywords = extract_keywords(text)
-    encoding = word2vec(keywords, model)
+    labels = ['Art','Computer','Mathematics', 'Economics', "Physics"]
 
-    max_sim = 0
-    matching_label = ''
-    for label in labels:
-        cosine_similarity = np.sum(encoding*word2vec(label, model))/(np.linalg.norm(encoding)*np.linalg.norm(word2vec(label, model)))
-        if cosine_similarity > max_sim:
-            matching_label = label
-            max_sim = cosine_similarity
+    contents_dictionary = getContents(filename)
 
-    print(matching_label)
+    for k in contents_dictionary.keys():
+        keywords = extract_keywords(contents_dictionary[k])
+        encoding = word2vec(keywords, model)
+        label = finding_label(model,encoding, labels)
+        print(k, "\n", label, "\n")
+
+    
