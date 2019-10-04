@@ -35,13 +35,11 @@ def word2vec(keywords, model):
     return v / len(keywords)
 
 
-
 if __name__== "__main__":
-
     # Load Google's pre-trained Word2Vec model.
-    model = gensim.models.KeyedVectors.load_word2vec_format('./model/GoogleNews-vectors-negative300.bin', binary=True)
+    model = gensim.models.KeyedVectors.load_word2vec_format('./word2vec/GoogleNews-vectors-negative300.bin', binary=True)
 
-    labels = ['Art', 'Design', 'Architecture', 'Film', 'Television', 'Scenography', 'Media', 
+    interests = ['Art', 'Design', 'Architecture', 'Film', 'Television', 'Scenography', 'Media',
                 'Management', 'Finance', 'Accounting', 'Marketing', 'Sales', 'Economics', 'Entrepreneurship',
                 'Chemical', 'Bioproducts', 'Biosystems',
                 'Communications', 'Electrical', 'Networking', 'Automation', 'Electronics', 'Signal', 'Acoustics',
@@ -53,12 +51,12 @@ if __name__== "__main__":
     keywords = extract_keywords(text)
     encoding = word2vec(keywords, model)
 
-    max_sim = 0
-    matching_label = ''
-    for label in labels:
-        cosine_similarity = np.sum(encoding*word2vec(label, model))/(np.linalg.norm(encoding)*np.linalg.norm(word2vec(label, model)))
-        if cosine_similarity > max_sim:
-            matching_label = label
-            max_sim = cosine_similarity
+    # Compute similarities
+    cos_sim = np.zeros(len(interests))
+    for i in range(len(interests)):
+        cos_sim[i] = np.sum(encoding*word2vec(interests[i], model))/(
+            np.linalg.norm(encoding)*np.linalg.norm(word2vec(interests[i], model)))
 
-    print(matching_label)
+    # Take the max labels
+    sorted_idx = np.argsort(cos_sim)[-4:]
+    print(interests[sorted_idx[3]], interests[sorted_idx[2]], interests[sorted_idx[1]], interests[sorted_idx[0]])
