@@ -1,0 +1,107 @@
+{
+	"784928":
+        {
+          "id": "784928",
+          "firstname": "Olivier",
+          "lastname": "Moitroux",
+          "age": 22,
+          "degree": "Master in CS, focus on intelligent systems",
+          "interests": {
+            "art": 0,
+            "design": 0,
+            "architecture": 0,
+            "film": 0,
+            "television": 0,
+            "scenography": 0,
+            "media": 0,
+            "management": 0,
+            "finance": 0,
+            "accounting": 0,
+            "marketing": 0,
+            "sales": 0,
+            "economics": 0,
+            "entrepreneurship": 0,
+            "chemical": 0,
+            "bioproducts": 0,
+            "communications": 0,
+            "electrical": 0,
+            "networking": 0,
+            "automation": 0,
+            "electronics": 0,
+            "signal": 0,
+            "acoustics": 0,
+            "engineering": 0,
+            "mechanical": 0,
+            "physics": 0,
+            "mathematics": 0,
+            "industrial": 0,
+            "neuroscience": 0,
+            "computer": 0
+          }
+        ,
+          "curriculum" :[
+            "CS-E4800",
+            "MS-A0501"
+          ],
+          "Records": {
+            "CS-E4800": 4,
+            "MS-A0501": 3
+          }
+		},
+    "754525":
+        {
+          "id": "754525",
+          "firstname": "Lauri",
+          "lastname": "Sulanto",
+          "age": 25,
+          "degree": "Master in Business and accounting",
+          "interests": {
+            "art": 0,
+            "design": 0,
+            "architecture": 0,
+            "film": 0,
+            "television": 0,
+            "scenography": 0,
+            "media": 0,
+            "management": 0,
+            "finance": 0,
+            "accounting": 0,
+            "marketing": 0,
+            "sales": 0,
+            "economics": 0,
+            "entrepreneurship": 0,
+            "chemical": 0,
+            "bioproducts": 0,
+            "communications": 0,
+            "electrical": 0,
+            "networking": 0,
+            "automation": 0,
+            "electronics": 0,
+            "signal": 0,
+            "acoustics": 0,
+            "engineering": 0,
+            "mechanical": 0,
+            "physics": 0,
+            "mathematics": 0,
+            "industrial": 0,
+            "neuroscience": 0,
+            "computer": 0
+          }
+
+        ,
+          "curriculum" :[
+            "22E29100",
+            "22C28000",
+            "22E21000",
+            "22E00500",
+            "ELEC-C7420"
+          ],
+          "Records": {
+            "22E29100": 4,
+            "22C28000": 3,
+            "22E21000": 2,
+            "22E00500": 5,
+            "ELEC-C7420": 5
+          }
+		}
+}
