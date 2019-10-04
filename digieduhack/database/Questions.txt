@@ -1,0 +1,46 @@
+['Art', 'Design', 'Architecture', 'Film', 'Television', 'Scenography', 'Media', 
+                'Management', 'Finance', 'Accounting', 'Marketing', 'Sales', 'Economics', 'Entrepreneurship',
+                'Chemical', 'Bioproducts', 'Biosystems', 'Biosystems',
+                'Communications', 'Electrical', 'Networking', 'Automation', 'Electronics', 'Signal', 'Acoustics',
+                'Engineering', 'Mechanical', 'Physics','Mathematics','Industrial', 'Neuroscience', 'Computer']
+
+
+#I am someone who...
+
+{
+    "Questions": [    
+    {
+        "TAG": ["Computer"],
+        "Question": "Thinks that technology will help improving society"
+    },
+    {
+        "TAG": ["Art"],
+        "Question": "" 
+    },
+    {
+        "TAG": ["Computer", ""],
+        "Question": "" 
+    },
+    {
+        "TAG": ["Computer", ""],
+        "Question": "" 
+    },
+    {
+        "TAG": ["Computer", ""],
+        "Question": "" 
+    },
+    {
+        "TAG": ["Computer", ""],
+        "Question": "" 
+    },
+    {
+        "TAG": ["Computer", ""],
+        "Question": "" 
+    },
+    {
+        "TAG": ["Computer", ""],
+        "Question": "" 
+    }
+
+    ]
+}
